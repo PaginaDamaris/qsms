@@ -171,7 +171,7 @@
   box-shadow: 0 20px 45px rgba(124, 58, 237, 0.3);
 }
 
-#songTitle button{
+#songTitle button {
   font-size: 19px;
   font-weight: 600;
   color: #4c1d95;
@@ -183,5 +183,6 @@ body {
   background: linear-gradient(to bottom, #faf5ff, #f3e8ff);
   
 }
+
 
 
