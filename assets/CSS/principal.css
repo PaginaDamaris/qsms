@@ -114,3 +114,37 @@
   align-items: center;
 }
 
+.cancion-semana {
+  margin-top: 60px;
+  text-align: center;
+  color: white;
+}
+
+.song-card {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 20px;
+}
+
+#adminBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  background: #111;
+  color: #aaa;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 9999; /* SUPER IMPORTANTE */
+  transition: 0.3s ease;
+}
+
+#adminBtn:hover {
+  background: #222;
+  transform: scale(1.1);
+}
